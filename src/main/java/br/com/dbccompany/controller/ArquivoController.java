@@ -22,7 +22,7 @@ import br.com.dbccompany.util.FileUtis;
 public class ArquivoController {
 
 
-	private static final String CARACTER_SPLIT_BASE_LINHA = "�";
+	private static final String CARACTER_SPLIT_BASE_LINHA = "ç";
 	private static final String CARACTER_SPLIT_ITENS_VENDA = ",";
 	private static final String CARACTER_SPLIT_ITEM_VENDA = "-";
 	
@@ -113,6 +113,8 @@ public class ArquivoController {
 	    fos.close();
 	    
 	} 
+	
+	
 	
 	/**
 	 * @return the vListVendedor
